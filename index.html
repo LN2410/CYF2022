@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Styled Homepage</title>
+</head>
+
+<body>
+    <nav class="topnav" aria-label="Main Site Links.">
+        <ul>
+            <li><a class="home" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#footer">Social Media</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>My Personal Homepage</h1>
+        <header class="c-site-header" id="home">
+            <p id="me">I am a mindful, passionate, resourceful, practical web developer. </p>
+            <img alt="Profile Picture"
+                src="https://images.unsplash.com/photo-1641511874591-f925cda9365b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MjAxOTk1NA&ixlib=rb-1.2.1&q=85">
+        </header>
+        <h2 class="aboutMe" id="about">About:</h2>
+        <p>My name is Lihle Naphakade, I was born on the 24-Oct-1995. I am currently working as a Customer Solutions
+            Specialist at Impact. I have studied Business Management at Boland college, I also completed two short
+            courses at the North-West University in Behavioural and Organisational Skills and Workplace Relations. In
+            20188, I was part of a BootCamp where I learned full stack Software Development howeve I had to quit due to
+            financial challenges.</p>
+        <br>At Codex, I learned and practically applied these skills:
+        <ul>
+            <li>Using the Linux terminal to manage and install software</li>
+            <li>Building responsive websites using HTML & CSS</li>
+            <li>Test Driven Development using mocha & Travis CI</li>
+            <li>Version control using Git & GitHub</li>
+            <li>Creating interactive front-ends using the DOM with JavaScript.</li>
+        </ul>
+        <p>I have been involved in many extra mural activities aimed at developing my confidence, verbal communication
+            and team working skills. Whilst at college I have been heavily involved in my Church through my Youth Group.
+            Being a part of these group has had a great impact in my life and has helped me make wise decisions and
+            realize the potential I have to ensure my dreams become a reality. The youth today are exposed to a lot of
+            things good and bad, but by committing myself to this group I have expanded my horizons and am determined to
+            create a successful life which I can be proud of.</p>
+        <h3>Below is a song that inspires me to never give up:</h3>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/jmsp4OwL4M4">
+        </iframe>
+
+        <footer class="c-site-footer" id="footer">
+            <h2>Get in touch!</h2>
+            <a href="https://github.com/ln2410" target="_blank" class="fa fa-github"></a>
+            <a href="https://twitter.com/lihlenaphakade" target="_blank" class="fa fa-twitter"></a>
+            <p>There have been <span id="sheep_count">0</span> sheep 🐑 and <span id="other_count">0</span> others.</p>
+            <input id="text" />
+            <button id="button">add animal</button>
+
+        </footer>
+    </main>
+    <!-- Your test console.
+Don't delete!-->
+    <aside id="tests" aria-label="Test Readout." aria-live="polite" style="overflow:auto">
+    </aside>
+</body>
+<script src="functionality.js"></script>
+</html>
